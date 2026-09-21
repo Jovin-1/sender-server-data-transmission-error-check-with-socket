@@ -1,0 +1,14 @@
+Sender:
+
+for error crc and noise to introduce error 
+python3 sender.py --error --noise-mode noise
+for error crc 
+python3 sender.py --error 
+for noise to introduce error 
+python3 sender.py --noise-mode noise
+
+Server:
+
+python3 server.py
+
+
